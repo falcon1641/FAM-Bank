@@ -2,8 +2,8 @@ body {
   background: rgb(240, 240, 240);
   background: linear-gradient(
       51deg,
-      rgba(240, 240, 240, 1) 0%,
-      rgba(233, 233, 233, 1) 100%
+      rgba(240, 240, 240, 1) 50%,
+      rgb(9, 24, 88) 100%
     )
     fixed;
 }
@@ -14,7 +14,7 @@ body {
   font-weight: 600;
   font-size: 12px;
   border-radius: 4px;
-  padding: 0px 5px;
+  padding: 0px 8px;
   line-height: 1.7;
 }
 
@@ -23,12 +23,20 @@ body {
   color: rgb(246, 246, 246);
   font-weight: 600;
   font-size: 12px;
-  border-radius: 4px;
-  padding: 0px 5px;
+  border-radius: 5px;
+  padding: 0px 8px;
   line-height: 1.7;
 }
 
 .navbar-nav > li {
   padding-left: 30px;
   margin-left: 15px;
+}
+
+.logo-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 0%;
+  overflow: hidden;
+  margin-top: 15px;
 }
